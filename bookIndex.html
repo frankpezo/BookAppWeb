@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="book.css">
+    <title>Library</title>
+</head>
+<body>
+   
+    <div id="contain1" class="container1">
+    <!-- <h1 class="titulo1" id="titu1"> Mi colección de <span class="span1 ">Libros</span> </h1> -->
+   <!--Form-->
+   <form id ="libroForm ">
+    <h2  class="titu2">BooKs</h2>
+
+    <div class="formGroup">
+       
+      <!--  <label for="tituloL">Titulo</label> <br> -->
+       <input type="text" id="tituloL" class="input1" placeholder="Título">
+    </div>
+
+    <div class="formGroup">
+   <!--   <label for="autor">Autor</label> <br> -->
+     <input type="text" id="autor" class="input1" placeholder="Autor">
+  </div>
+
+  <div class="formGroup">
+  <!--    <label for="isbn">#ISBN</label> <br> -->
+     <input type="text" id="isbn" class="input1" placeholder="ISBN">
+  </div>
+<br>
+  <input type="submit" value="Agregar libro" clas="btnAgregar ">
+
+</form>
+  <!--Table-->    
+      <div class="tabb">
+        <table class="tableLibros">
+            <thead >
+                 <tr class="subtitu1">  
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>ISBN#</th>
+              
+                 </tr>
+            </thead>
+             
+            <tbody id="libro-list">
+                <tr class="subtitu2">  
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>ISBN#</th>
+                    <th><button id="btnDelete">X</button> </th>
+                 </tr>
+
+                 <tr class="subtitu2">  
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>ISBN#</th>
+                    <th> <button id="btnDelete">X</button> </th>
+                 </tr>
+                 
+            </tbody>
+    
+        </table>
+      </div>
+    </div>
+</body>
+</html>

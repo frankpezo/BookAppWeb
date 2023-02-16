@@ -1,0 +1,614 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Roboto', sans-serif;
+    background: rgb(238, 238, 238);
+  
+ 
+    
+ 
+}
+
+#contain1{
+    margin-top: 50px;
+    
+
+
+}
+
+
+.titulo1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.titu2{
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    color: rgb(29, 116, 192);
+}
+
+form{
+    padding: 20px;
+    width: 300px;
+    height: auto;
+   background-color: #ffffff; 
+   margin-left: 575px;
+   box-shadow:  rgb(223, 219, 219) 1px 2px 1px 2px ;
+}
+
+.formGroup{
+    background-color: #ffffff;
+}
+
+form input[type="text"]{
+    border: 1px solid rgb(205, 202, 202);
+    border-radius: 2px;
+    width: 280px;
+   padding: 5px;
+   margin-bottom: 20px;
+   background-color: #ffffff;
+  outline-color: rgb(29, 116, 192);
+
+}
+
+form input[type="submit"]{
+    width: 292px;
+    padding: 8px;
+    background-color: rgb(29, 116, 192);
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+form input[type="submit"]:hover{
+    
+    background-color: rgb(64, 155, 235);
+    
+}
+
+
+.tableLibros{
+    margin-top: 30px;
+    height: auto;
+    width: 700px;
+    margin-left: 400px;
+    box-shadow:  rgb(223, 219, 219) 1px 2px 1px 2px ;
+    color: rgb(29, 116, 192);
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+
+
+.tableLibros  thead tr th{
+    padding-top: 4px;
+    border-bottom: 2px solid rgb(29, 116, 192);
+    border-top: 2px solid rgb(29, 116, 192); 
+    background-color: #ffffff;
+}
+
+
+.tableLibros tbody tr th{
+    padding:8px;
+
+ 
+}
+
+#btnDelete{
+    background-color: rgb(246, 76, 76);
+    color: #ffffff;
+    border: none;
+    height: 29px;
+    width: 25px;;
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+
+/*Responsive*/
+@media screen and (max-width: 1462px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 550px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 1422px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 540px;
+    }
+
+    .tableLibros{
+       
+        margin-left: 360px;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 1360px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 510px;
+    }
+
+    .tableLibros{
+       
+        margin-left: 330px;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 1320px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 490px;
+    }
+
+    .tableLibros{
+       
+        margin-left: 330px;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 1320px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 450px;
+    }
+
+    .tableLibros{
+       
+        margin-left: 280px;
+        
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 350px;
+    }
+
+    .tableLibros{
+       
+        margin-left: 180px;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 350px;
+    }
+
+    .tableLibros{
+       
+        margin-left: 180px;
+        
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 990px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 300px;
+    }
+
+    .tableLibros{
+       
+        margin-left: 120px;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 907px) {
+    .titulo1{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        margin-left: 230px;
+    }
+
+    .tableLibros{
+       
+        margin-left: 50px;
+        
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .titulo1{
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+          margin-left: 190px;
+          width: 250px;
+       
+    }
+    
+    .formGroup{
+        background-color: #ffffff;
+    }
+    
+    form input[type="text"]{
+      
+        width: 230px;
+      
+    
+    }
+    
+    form input[type="submit"]{
+        width: 240px;
+       
+    }
+
+    .tableLibros{
+       
+        width: 520px;
+        margin-left:70px;
+       
+    }
+
+
+    .tableLibros  thead tr th{
+        padding-top: 2px;
+    
+    }
+    
+    
+    .tableLibros tbody tr th{
+        padding:4px;
+    
+     
+    }
+    
+    #btnDelete{
+        
+        height: 19px;
+        width: 15px;;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+
+    
+
+}
+
+@media screen and (max-width: 545px) {
+    .titulo1{
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        padding: 20px;
+        width: 240px;
+        margin-top: 150px;
+       margin-left:150px;
+       
+    }
+    
+    .formGroup{
+        background-color: #ffffff;
+    }
+    
+    form input[type="text"]{
+      
+        width: 230px;
+      
+    
+    }
+    
+    form input[type="submit"]{
+        width: 240px;
+       
+    }
+
+    .tableLibros{
+       
+        width: 480px;
+        margin-left: 34px;
+       
+    }
+
+
+    .tableLibros  thead tr th{
+        padding-top: 2px;
+    
+    }
+    
+    
+    .tableLibros tbody tr th{
+        padding:4px;
+    
+     
+    }
+    
+    #btnDelete{
+        
+        height: 19px;
+        width: 15px;;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+
+    
+
+}
+
+
+
+
+
+@media screen and (max-width: 465px) {
+    .titulo1{
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        padding: 20px;
+        width: 240px;
+       margin-left: 90px;
+       
+    }
+    
+    .formGroup{
+        background-color: #ffffff;
+    }
+    
+    form input[type="text"]{
+      
+        width: 230px;
+      
+    
+    }
+    
+    form input[type="submit"]{
+        width: 240px;
+       
+    }
+
+    .tableLibros{
+       
+        width: 420px;
+        margin-left: 20px;
+       
+    }
+
+
+    .tableLibros  thead tr th{
+        padding-top: 2px;
+    
+    }
+    
+    
+    .tableLibros tbody tr th{
+        padding:4px;
+    
+     
+    }
+    
+    #btnDelete{
+        
+        height: 19px;
+        width: 15px;;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+
+    
+
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .titulo1{
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        padding: 20px;
+        width: 240px;
+        margin-top: 150px;
+       margin-left: 50px;
+       
+    }
+    
+    .formGroup{
+        background-color: #ffffff;
+    }
+    
+    form input[type="text"]{
+      
+        width: 230px;
+      
+    
+    }
+    
+    form input[type="submit"]{
+        width: 240px;
+       
+    }
+
+    .tableLibros{
+       
+        width: 340px;
+        margin-left: 25px;
+       
+    }
+
+
+    .tableLibros  thead tr th{
+        padding-top: 2px;
+    
+    }
+    
+    
+    .tableLibros tbody tr th{
+        padding:4px;
+    
+     
+    }
+    
+    #btnDelete{
+        
+        height: 19px;
+        width: 15px;;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+
+    
+
+}
+
+
+
+@media screen and (max-width: 380px) {
+    .titulo1{
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    form{
+        padding: 20px;
+        width: 240px;
+        margin-top: 150px;
+       margin-left: 50px;
+       
+    }
+    
+    .formGroup{
+        background-color: #ffffff;
+    }
+    
+    form input[type="text"]{
+      
+        width: 230px;
+      
+    
+    }
+    
+    form input[type="submit"]{
+        width: 240px;
+       
+    }
+
+    .tableLibros{
+       
+        width: 336px;
+        margin-left: 14px;
+       
+    }
+
+
+    .tableLibros  thead tr th{
+        padding-top: 2px;
+    
+    }
+    
+    
+    .tableLibros tbody tr th{
+        padding:4px;
+    
+     
+    }
+    
+    #btnDelete{
+        
+        height: 19px;
+        width: 15px;;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+
+    
+
+}
+
+
+
